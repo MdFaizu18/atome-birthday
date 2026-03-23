@@ -487,7 +487,7 @@ function FirstMessageScreen({ onNext }: { onNext: () => void }) {
 
   return (
     <motion.div
-      className="min-h-screen flex flex-col items-center justify-center px-6 relative overflow-hidden"
+      className="py-8 min-h-screen flex flex-col items-center justify-center px-6 relative overflow-hidden"
       style={{
         background: "linear-gradient(135deg, #fdf2f8 0%, #fce7f3 50%, #fbcfe8 100%)",
       }}
